@@ -1,0 +1,240 @@
+.img_1 {
+    
+    position: relative;
+    top: -30px;
+    margin-left:1000px;
+    margin-left: -15px;
+}
+
+.logo {
+    position: relative;
+    top: -850px;
+    margin-left: 95px;
+}
+
+
+.navbar select {
+    border-radius: 5px ;
+    width: 200px;
+    height: 40px;
+    border: none;
+    color: white;
+    font-size: 17px;
+    position: relative;
+    top: -894px;
+    background: none;
+    margin-left: 215px;
+}
+
+
+.navbar ul {
+    display: flex;
+    gap: 25px;
+    font-family: sans-serif;
+    font-size: 17px;
+    margin-left: 650px;
+}
+
+.navbar li {
+    list-style: none;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    position: relative;
+    top: -940px;
+    font-family: sans-serif;
+}
+
+.navbar a:hover {
+    color: green;
+}
+
+.btn {
+    border-radius: 50px;
+    padding: 10px;
+    width: 170px;
+    height: 45px;
+    border: 2px solid white;
+    background-color: white;
+
+}
+
+.toggle-container {
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.2); 
+  backdrop-filter: blur(5px); 
+  border-radius: 50px;
+  padding: 5px;
+  width: fit-content;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.toggle-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 25px;
+  border-radius: 50px;
+  cursor: pointer;
+  color: white;
+  font-weight: 500;
+  transition: 0.3s ease;
+}
+
+.toggle-item.active {
+  background-color: white;
+  color: #373e47;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.toggle-item i {
+  font-size: 18px;
+}
+
+.btn {
+    position: relative;
+    top: -940px;
+}
+
+
+
+
+
+.toggle-container {
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+    border-radius: 50px;
+    padding: 4px; 
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    width: fit-content;
+}
+
+.toggle-item {
+    border: none; 
+    background: transparent; 
+    padding: 10px 25px;
+    border-radius: 50px;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: all 0.3s ease;
+}
+
+
+.toggle-item.active {
+    background-color: white;
+    color: #373e47;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.toggle-item:hover:not(.active) {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.toggle-container {
+    position: relative;
+    top: -950px;
+}
+
+
+.menu-btn {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background: transparent; /* Fon shaffof */
+  border: 1.5px solid white; /* Oq ingichka hoshiya */
+  border-radius: 50px; /* To'liq yumaloq chetlar */
+  padding: 8px 25px;
+  color: white;
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.menu-btn:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+
+.menu-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 4px;
+}
+
+.menu-icon span {
+  display: block;
+  height: 2px;
+  background-color: white;
+  border-radius: 2px;
+}
+
+.menu-icon span:nth-child(1) { width: 12px; }
+.menu-icon span:nth-child(2) { width: 18px; }
+.menu-icon span:nth-child(3) { width: 10px; }
+
+.menu-btn {
+    position: relative;
+    top: -950px;
+}
+
+.img2 {
+    position: relative;
+    top: -780px;
+    margin-left: 50px;
+}
+
+.btn3 {
+    width: 140px;
+    height: 50px;
+    padding: 12px 35px;
+    border-radius: 50px;
+    background-color: #333631; 
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    top: -710px;
+    cursor: pointer;
+    margin-left: -370px;
+}
+
+.btn4 {
+
+    padding: 12px 35px;
+    border-radius: 50px;
+    border: none;
+    background-color: #e8f5e9;
+    color: #00695c;
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+    width: 200px;
+    height: 50px;
+    position: relative;
+    top: -710px;
+    margin-left: 5px;
+}
+.btn4:hover {
+    background-color: #dcedc8;
+}
