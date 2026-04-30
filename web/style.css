@@ -150,9 +150,9 @@
   display: flex;
   align-items: center;
   gap: 15px;
-  background: transparent; /* Fon shaffof */
-  border: 1.5px solid white; /* Oq ingichka hoshiya */
-  border-radius: 50px; /* To'liq yumaloq chetlar */
+  background: transparent; 
+  border: 1.5px solid white; 
+  border-radius: 50px; 
   padding: 8px 25px;
   color: white;
   font-family: sans-serif;
@@ -237,4 +237,128 @@
 }
 .btn4:hover {
     background-color: #dcedc8;
+}
+
+
+.hero_section {
+    
+    position: relative;
+    top: -400px;
+    font-family: sans-serif;
+}
+
+.p1 {
+    font-size: 34px;
+}
+
+.btn5 {
+  background-color: #086242; 
+  color: white;
+  padding: 20px 25px;
+  border-radius: 50px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  display: inline-flex;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+  margin-left: 1111px;
+  position: relative;
+  top: -105px;
+}
+
+.p1 {
+    margin-left: 80px;
+    font-family: sans-serif
+}
+
+.p2 {
+    font-size: 24px;
+    color: #666666;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    margin-left: 80px; 
+    position: relative;
+    top: -98px;
+}
+
+.ish {
+    border-radius: 18px;
+    margin-left: 80px;
+    position: relative;
+    top: -80px;
+}
+
+.titlre h1 {
+    margin-left: 80px;
+    position: relative;
+    top: -80px;
+}
+
+.bozor h3 {
+    font-size: 30px;
+    margin-left: 80px;
+    position: relative;
+    top: -80px;
+    color: #343a40;
+}
+
+.bozor h2 {
+    font-size:  45px;
+    color: #005a2c;
+    margin-left: 80px;
+    position: relative;
+    top: -110px;
+}
+
+
+.tovar h3 {
+    font-size: 30px;
+    margin-left: 350px;
+    position: relative;
+    top: -239px;
+    color: #343a40;
+}
+
+.tovar h2 {
+    font-size:  45px;
+    color: #005a2c;
+    margin-left: 350px;
+    position: relative;
+    top: -273px;
+}
+
+.sku h3 {
+    font-size: 30px;
+    margin-left: 760px;
+    position: relative;
+    top: -393px;
+    color: #343a40;
+}
+
+.sku h2 {
+    font-size: 45px;
+    margin-left: 760px;
+    position: relative;
+    top: -430px;
+    color:#005a2c ;
+}
+
+
+.korxona h3 {
+    font-size: 30px;
+    margin-left: 1030px;
+    position: relative;
+    top: -552px;
+    color: #343a40;
+}
+
+
+.korxona h2 {
+    font-size: 45px;
+    margin-left: 1030px;
+    position: relative;
+    top: -588px;
+    color:#005a2c ;
 }
